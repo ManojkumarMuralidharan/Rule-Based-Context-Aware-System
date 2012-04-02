@@ -1,0 +1,29 @@
+/*    HTTP Host:  b.static.ak.fbcdn.net                                        */
+/*    Generated:  April 11th 2009 2:31:04 PM PDT                               */
+/*      Machine:  10.16.139.108                                                */
+/*       Source:  Global Cache                                                 */
+/*     Location:  css/UIErrorFlag.css h:b5pdlfqn                               */
+/*       Locale:  en_US                                                        */
+/*         Path:  css/UIErrorFlag.css                                          */
+
+
+.UIErrorFlag{background:url('/images/ui/UIErrorFlag_Nub_ltr.gif') top left no-repeat;padding:0 0 0 10px;position:absolute;top:2px;width:200px;z-index:2;}
+.UIHelpFlag_Block{background:url('/images/ui/UIHelpFlag_nub_ltr.gif') top left no-repeat;width:261px;margin:0 0 20px -11px;position:relative;}
+.UIHelpFlag_Close{position:absolute;right:6px;top:6px;background:url('/images/icon-remove-dark.gif') center center no-repeat;height:16px;width:15px;}
+.UIHelpFlag_Close:hover{background-color:#f9efb3;}
+.UIHelpFlag_Block .UIHelpFlag_Inner{background-color:#fff9d7;border-bottom:1px solid #e2c822;color:#333;display:block;margin-left:11px;padding:8px 12px 12px 10px;}
+.UIHelpFlag_Title{display:block;font-weight:bold;margin:0 0 6px 0;}
+.UIErrorFlag_MultiField{top:10px;}
+.UIErrorFlag .UIErrorFlag_Inner{background-color:#ffebe8;border-bottom:1px solid #eb8266;color:#333;display:block;padding:4px 7px 3px 9px;}
+.field_container{display:inline-block;padding:1px;position:relative;width:auto;}
+.ie7 .field_container,
+.ie6 .field_container{display:inline;}
+.error_field{background:#dd3c10;}
+.error_field input.inputtext,
+.error_field input.inputpassword,
+.error_field #captcha_response{border-color:#dd3c10;}
+.error_field input:focus,
+.error_field select:focus,
+.error_field input#captcha_response:focus{outline:0;}
+
+#bootloader_css_UIErrorFlag_css { height: 42px; }
