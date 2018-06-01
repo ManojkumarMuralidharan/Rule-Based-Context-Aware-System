@@ -166,7 +166,7 @@ direction:ltr;float:left;width:185px;padding:5px 5px 0px 0px;}
 .clearfix:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0;} .clearfix{display:inline-block;} html[xmlns] .clearfix{display:block;} * html .clearfix{height:1%;}
 .resetstyles{padding:0px;border:0px;margin:0px;overflow:visible;background:none;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;text-align:left;text-decoration:none;text-indent:0;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;}
 form{margin:0px;padding:0px;}
-label{color:#666666;font-weight:bold;vertical-align:middle;}
+label{color:#666666;font-weight:bold;vertical-align:middle;display: block; padding: 12px 0px 10px 0px;}
 label input{font-weight:normal;}
 .formtable{margin:0px auto;}
 .formtable{margin:0px;}
@@ -175,8 +175,11 @@ label input{font-weight:normal;}
 .formtable tr.tallrow{vertical-align:top;}
 .formbuttons{text-align:center;margin:10px 10px;}
 .formbuttons .inputsubmit, .formbuttons .inputbutton{margin:2px 4px;}
-.inputtext,
-.inputpassword{border:1px solid #bdc7d8;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;padding:3px;}
+.WelcomePage_SignUpSection .day{ width: 8%;}
+.WelcomePage_SignUpSection .month{ width: 8%;}
+.WelcomePage_SignUpSection .year{width: 20%;}
+.inputtext,.WelcomePage_SignUpSection input,
+.inputpassword{    border: 2px solid #74bdf3;font-size: 15px;border-radius: 6px;}
 textarea{border:1px solid #bdc7d8;padding:3px;font-size:11px;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;}
 .inputradio{padding:0px;margin:0px 5px 0px 0px;vertical-align:middle;}
 .inputcheckbox{border:0px;vertical-align:middle;}
@@ -673,7 +676,7 @@ span.psl{border:none;clear:both;display:block;margin:0px;padding:4px 0px 0px 0px
 .uber_bar .search_query{float:left;font-size:11px;padding:1px 5px 0px 0px;}
 #label_search_query_input{margin:0px 5px 0px 0px;padding:0px;}
 .uber_bar #q{width:140px }
-.uber_bar #q.inputsearch{width:140px } 
+.uber_bar #q.inputsearch{width:140px }
 .uber_bar .search_type{padding-right:5px }
 .uber_bar .browse_within{color:#666;float:left;padding:4px 0px 2px 2px;}
 .uber_bar .browse_within label{color:#333;font-weight:bold;}
